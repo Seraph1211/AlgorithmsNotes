@@ -1,4 +1,7 @@
 // https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/description/?envType=study-plan-v2&envId=top-interview-150
+
+import utils.CodeUtils;
+
 public class Question121 {
 
     public static void main(String[] args) {

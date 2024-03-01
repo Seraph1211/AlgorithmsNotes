@@ -1,3 +1,4 @@
+package utils;
 public class CodeUtils {
     
     public static void print(String tag, String content) {

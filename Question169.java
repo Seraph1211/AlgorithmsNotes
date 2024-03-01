@@ -2,6 +2,8 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+import utils.CodeUtils;
+
 // https://leetcode.cn/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
 public class Question169 {
     public static void main(String[] args) {
