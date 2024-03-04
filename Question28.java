@@ -1,5 +1,6 @@
 import utils.CodeUtils;
 
+// https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/description/?envType=study-plan-v2&envId=top-interview-150
 public class Question28 {
     public static void main(String[] args) {
         String haystack = "ssippi", needle = "sipp";
@@ -22,9 +23,20 @@ public class Question28 {
                 && j == needle.length() - 1) {
                     return i;
                 }
+
+                if (haystack.charAt(p) != needle.charAt(j) 
+                && j != needle.length() - 1) {
+                    break;
+                }
             }
         }
 
         return -1;
+    }
+
+    public static int strStrKMP(String haystack, String needle) {
+
+        return -1;
+
     }
 }
