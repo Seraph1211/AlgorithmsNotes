@@ -21,4 +21,12 @@ public class CodeUtils {
         System.out.println("");
     }
 
+    public static void printArr(String tag, String[] arr) {
+        System.out.print(tag + ": ");
+        for (String element : arr) {
+            System.out.print(element + " ");
+        }
+        System.out.println("");
+    }
+
 }
