@@ -57,5 +57,4 @@ public class Question21 {
             next  = null;
         } 
     }
-
 }
